@@ -79,7 +79,7 @@ spec:
       spec:
         accessModes:
           - ReadWriteOnce
-	storageClass: openebs-zfspv-satassdz2
+        storageClass: openebs-zfspv-satassdz2
         resources:
           requests:
             storage: 1Gi
