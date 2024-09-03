@@ -50,7 +50,7 @@ spec:
         taskRef:
           name: git-clone
         workspaces:
-          - name: output
+          - name: source
             workspace: source
           - name: basic-auth
             workspace: basic-auth
