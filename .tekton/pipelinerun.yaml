@@ -29,8 +29,7 @@ metadata:
 spec:
   podTemplate:
     securityContext:
-      runAsUser: 0
-      runAsGroup: 0
+      fsGroup: 65532
   params:
     # The variable with brackets are special to Pipelines as Code
     # They will automatically be expanded with the events from Github.
