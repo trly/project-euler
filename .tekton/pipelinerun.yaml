@@ -50,7 +50,7 @@ spec:
             workspace: source
         params:
           - name: GRADLE_IMAGE
-            value: 8-jdk17
+            value: library/8-jdk17
   workspaces:
   - name: source
     volumeClaimTemplate:
