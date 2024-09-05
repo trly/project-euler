@@ -15,6 +15,10 @@ The following CI/CD tools are used to build and test the code in this project.
 
 * Tekton
 * Pipelines as Code
+* dependabot
+
+### [Dependabot](https://docs.github.com/en/code-security/dependabot)
+> Monitor vulnerabilities in dependencies used in your project and keep your dependencies up-to-date with Dependabot.
 
 
 ### [Tekton](https://tekton.dev/) + [Pipelines as Code](https://pipelinesascode.com/)
