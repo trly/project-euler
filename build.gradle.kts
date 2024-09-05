@@ -12,7 +12,7 @@ repositories {
 }
 
 dependencies {
-    implementation("org.jsoup:jsoup:1.15.2")
+    implementation("org.jsoup:jsoup:1.18.1")
     testImplementation(kotlin("test"))
     testImplementation(platform("org.junit:junit-bom:5.11.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
