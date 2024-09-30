@@ -14,7 +14,7 @@ repositories {
 dependencies {
     implementation("org.jsoup:jsoup:1.18.1")
     testImplementation(kotlin("test"))
-    testImplementation(platform("org.junit:junit-bom:5.11.0"))
+    testImplementation(platform("org.junit:junit-bom:5.11.1"))
     testImplementation("org.junit.jupiter:junit-jupiter")
     testImplementation("org.assertj:assertj-core:3.26.3")
 }
